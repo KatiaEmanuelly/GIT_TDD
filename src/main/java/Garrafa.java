@@ -8,6 +8,6 @@
  *
  * @author Crohma
  */
-public class Garrafaa {
+public class Garrafa {
     
 }
