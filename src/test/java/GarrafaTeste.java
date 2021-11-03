@@ -16,4 +16,14 @@ public class GarrafaTeste {
         assertEquals(volume, garrafa.getVolume());
     }
 
+    @Test
+    public void capacidadeEVolumeInicialTest2() {
+        int capacidade = 900;
+        int volume = 200;
+        garrafa = new Garrafa(capacidade, volume);
+
+        assertEquals(capacidade, garrafa.getCapacidade());
+        assertEquals(volume, garrafa.getVolume());
+    }
+
 }

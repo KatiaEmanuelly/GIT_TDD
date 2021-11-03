@@ -9,13 +9,20 @@
  * @author Crohma
  */
 public class Garrafa {
-    public Garrafa(int capacidade, int volume){
-        
+
+    private int capacidade;
+    private int volume;
+
+    public Garrafa(int capacidade, int volume) {
+        this.capacidade = capacidade;
+        this.volume = volume;
     }
-    int getCapacidade(){
-        return 1000;
+
+    int getCapacidade() {
+        return capacidade;
     }
-    int getVolume(){
-        return 700;
+
+    int getVolume() {
+        return volume;
     }
 }
