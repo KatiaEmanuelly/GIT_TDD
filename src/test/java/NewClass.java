@@ -8,14 +8,6 @@
  *
  * @author Crohma
  */
-public class Garrafa {
-    public Garrafa(int capacidade, int volume){
-        
-    }
-    int getCapacidade(){
-        return 1000;
-    }
-    int getVolume(){
-        return 700;
-    }
+public class NewClass {
+    
 }
